@@ -1,0 +1,35 @@
+{
+    "name": "notes_app",
+    "short_name": "notes_app",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "This Notes App is a cross-platform mobile application built using Flutter. The app leverages Firebase as the online database for secure and scalable data storage, ensuring real-time sync across devices. It uses the GetX package for efficient state management, providing smooth navigation and minimal boilerplate code. Key features include user authentication (email and password), the ability to add, edit, and delete notes, and real-time note retrieval, all managed seamlessly through Firebase. The intuitive UI ensures a user-friendly experience while maintaining high performance and responsiveness.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
